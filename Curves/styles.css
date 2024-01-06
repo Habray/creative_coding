@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.collection {
+  display: grid;
+  grid-template-areas: "canvas1 canvas2 canvas3";
+  gap: 10px;
+  align-content: center;
+  height: 100vh;
+}
+
+.first-canvas {
+  grid-area: canvas1;
+  border: 5px solid black;
+}
+.second-canvas {
+  grid-area: canvas2;
+  border: 5px solid black;
+}
+.third-canvas {
+  grid-area: canvas3;
+  border: 5px solid black;
+}
